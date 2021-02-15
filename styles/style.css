@@ -105,6 +105,7 @@ body {
   padding-right: 10%;
   padding-left: 10%;
   text-align: justify;
+  max-width: 1060px;
 }
 .publication__content {
   color: #000000;
@@ -131,6 +132,12 @@ body {
   font-family: futura-pt, sans-serif;
   font-style: normal;
   font-weight: 700;
+}
+.title-name__cursor {
+  border-left: 2px solid rgb(237, 239, 242, 0.71);
+  height: 43px;
+  display: inline-block;
+  margin: -5px 0 -5px -5px;
 }
 .publication__subtitle {
   color: #8f8f8f;
